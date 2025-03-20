@@ -166,4 +166,4 @@ C:\Users\td\Desktop\Chat\API\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.
 C:\Users\td\Desktop\Chat\API\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\td\Desktop\Chat\API\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\td\Desktop\Chat\API\bin\Debug\net9.0\API.staticwebassets.runtime.json
-C:\Users\td\Desktop\Chat\API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\td\Desktop\Chat\API\obj\Debug\net9.0\API.sourcelink.json
