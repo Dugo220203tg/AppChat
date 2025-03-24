@@ -1,47 +1,51 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
       "PackagePath": "staticwebassets\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
       "PackagePath": "staticwebassets\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
       "PackagePath": "staticwebassets\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
       "PackagePath": "staticwebassets\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
       "PackagePath": "staticwebassets\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
       "PackagePath": "staticwebassets\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
       "PackagePath": "staticwebassets\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
       "PackagePath": "staticwebassets\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
       "PackagePath": "staticwebassets\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\default_avatar.jpg",
+      "PackagePath": "staticwebassets\\uploads\\default_avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
       "PackagePath": "staticwebassets\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png"
     },
     {
-      "Id": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
+      "Id": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
       "PackagePath": "staticwebassets\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg"
     },
     {

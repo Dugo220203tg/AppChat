@@ -8,4 +8,6 @@ public class MessageRequestDto
     public string? Content{get; set; }
     public bool IsRead {get; set; }
     public DateTime CreateDated {get; set; }
+    public string? SenderUsername { get; set; } 
+    public string? ReceiverUsername { get; set; } 
 }

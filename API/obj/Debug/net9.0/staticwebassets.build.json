@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jkxyVgQkm6lg0JrQITjByJNNMdW7ilq8xYZQWLGvG/o=",
+  "Hash": "MXahEknFOAdmfs3ZOYyuYlya8rARlF2O+GOrltApqG8=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/2170f22f-158d-40ef-a09b-e84ae24c0f2b#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/2c2cdb4e-6245-446f-bcd5-aeadd975fdb4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/40754b13-bd15-4aa0-a412-7de621e05acc#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/50dc2a1d-19a9-4231-a804-10ca3ed41af9#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/55fc76ef-72dd-4525-b2c0-88baf79e55ef#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/860ab81a-1e70-43ef-ba91-63d5ae36abdf#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/a40f7cb1-9570-4fa8-90c3-75c5784edfc3#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,31 @@
       "OriginalItemSpec": "wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\default_avatar.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "uploads/default_avatar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tzn1a5gz8h",
+      "Integrity": "uW12iTTOFW4hjOyZIiz+AZdrWnQDiM1YJoJe/IeXB9s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\default_avatar.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/e8111a33-4fde-40e1-b634-d30fa68741b0#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -227,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png"
     },
     {
-      "Identity": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
+      "Identity": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "uploads/ef2903d2-9db8-4b0f-b226-88b406594833#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -251,7 +272,7 @@
   "Endpoints": [
     {
       "Route": "uploads/2170f22f-158d-40ef-a09b-e84ae24c0f2b.a3htak8co9.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -296,7 +317,7 @@
     },
     {
       "Route": "uploads/2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2170f22f-158d-40ef-a09b-e84ae24c0f2b.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -333,7 +354,7 @@
     },
     {
       "Route": "uploads/2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -370,7 +391,7 @@
     },
     {
       "Route": "uploads/2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.xjq3oknpg0.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\2c2cdb4e-6245-446f-bcd5-aeadd975fdb4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -415,7 +436,7 @@
     },
     {
       "Route": "uploads/40754b13-bd15-4aa0-a412-7de621e05acc.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -452,7 +473,7 @@
     },
     {
       "Route": "uploads/40754b13-bd15-4aa0-a412-7de621e05acc.xjq3oknpg0.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\40754b13-bd15-4aa0-a412-7de621e05acc.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -497,7 +518,7 @@
     },
     {
       "Route": "uploads/44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.hrebvjb12i.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -542,7 +563,7 @@
     },
     {
       "Route": "uploads/44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\44dee8c9-b3c7-4d14-b4b3-3ff5eb0f3e78.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -579,7 +600,7 @@
     },
     {
       "Route": "uploads/50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -616,7 +637,7 @@
     },
     {
       "Route": "uploads/50dc2a1d-19a9-4231-a804-10ca3ed41af9.xjq3oknpg0.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\50dc2a1d-19a9-4231-a804-10ca3ed41af9.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -661,7 +682,7 @@
     },
     {
       "Route": "uploads/55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -698,7 +719,7 @@
     },
     {
       "Route": "uploads/55fc76ef-72dd-4525-b2c0-88baf79e55ef.z9zgu5np5u.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\55fc76ef-72dd-4525-b2c0-88baf79e55ef.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -743,7 +764,7 @@
     },
     {
       "Route": "uploads/860ab81a-1e70-43ef-ba91-63d5ae36abdf.hrebvjb12i.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -788,7 +809,7 @@
     },
     {
       "Route": "uploads/860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\860ab81a-1e70-43ef-ba91-63d5ae36abdf.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -825,7 +846,7 @@
     },
     {
       "Route": "uploads/a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -862,7 +883,7 @@
     },
     {
       "Route": "uploads/a40f7cb1-9570-4fa8-90c3-75c5784edfc3.xjq3oknpg0.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\a40f7cb1-9570-4fa8-90c3-75c5784edfc3.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -907,7 +928,7 @@
     },
     {
       "Route": "uploads/dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.hrebvjb12i.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -952,7 +973,7 @@
     },
     {
       "Route": "uploads/dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\dc1cf8d2-1f8a-4ee4-98a3-c8a9dde5631e.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -988,8 +1009,90 @@
       ]
     },
     {
+      "Route": "uploads/default_avatar.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\default_avatar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW12iTTOFW4hjOyZIiz+AZdrWnQDiM1YJoJe/IeXB9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 06:19:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW12iTTOFW4hjOyZIiz+AZdrWnQDiM1YJoJe/IeXB9s="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/default_avatar.tzn1a5gz8h.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\default_avatar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uW12iTTOFW4hjOyZIiz+AZdrWnQDiM1YJoJe/IeXB9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 06:19:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tzn1a5gz8h"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/default_avatar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uW12iTTOFW4hjOyZIiz+AZdrWnQDiM1YJoJe/IeXB9s="
+        }
+      ]
+    },
+    {
       "Route": "uploads/e8111a33-4fde-40e1-b634-d30fa68741b0.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1026,7 +1129,7 @@
     },
     {
       "Route": "uploads/e8111a33-4fde-40e1-b634-d30fa68741b0.xjq3oknpg0.png",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\e8111a33-4fde-40e1-b634-d30fa68741b0.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1071,7 +1174,7 @@
     },
     {
       "Route": "uploads/ef2903d2-9db8-4b0f-b226-88b406594833.a3htak8co9.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1116,7 +1219,7 @@
     },
     {
       "Route": "uploads/ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
-      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\API\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
+      "AssetFile": "C:\\Users\\td\\Desktop\\Chat\\api\\wwwroot\\uploads\\ef2903d2-9db8-4b0f-b226-88b406594833.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

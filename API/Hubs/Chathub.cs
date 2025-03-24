@@ -72,90 +72,112 @@ public class ChatHub : Hub
     }
     
     public async Task LoadMessages(string recipientId, int pageNumber = 1)
+{
+    int pageSize = 10;
+    var username = Context.User?.Identity?.Name;
+    
+    if (string.IsNullOrEmpty(username))
     {
-        int pageSize = 10;
-        var username = Context.User?.Identity?.Name;
-        
-        if (string.IsNullOrEmpty(username))
-        {
-            return;
-        }
-        
-        var currentUser = await userManager.FindByNameAsync(username);
-        
-        if(currentUser is null)
-        {
-            return;
-        }
-        
-        List<MessageResponseDto> messages = await context.Messages
-            .Where(x => (x.ReceiverId == currentUser.Id && x.SenderId == recipientId) || 
-                       (x.SenderId == currentUser.Id && x.ReceiverId == recipientId))
-            .OrderByDescending(x => x.CreatedDate)
-            .Skip((pageNumber - 1) * pageSize)
-            .Take(pageSize)
-            .OrderBy(x => x.CreatedDate)
-            .Select(x => new MessageResponseDto
-            {
-                Id = x.Id,
-                Content = x.Content,
-                CreateDated = x.CreatedDate,
-                ReceiverId = x.ReceiverId, 
-                SenderId = x.SenderId
-            })
-            .ToListAsync();
-            
-        foreach (var message in messages)
-        {
-            var msg = await context.Messages.FirstOrDefaultAsync(x => x.Id == message.Id);
-            if(msg != null && msg.ReceiverId == currentUser.Id)
-            {
-                msg.IsRead = true;
-            }
-        }
-        
-        await context.SaveChangesAsync(); // Move outside the loop for better performance
-        
-        // Use Client directly with the connection ID instead of User
-        await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessageList", messages);
+        return;
     }
     
-    public async Task SendMessage(MessageRequestDto message)
+    var currentUser = await userManager.FindByNameAsync(username);
+    
+    if(currentUser is null)
     {
-        var username = Context.User?.Identity?.Name;
-        
-        if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(message.ReceiverId))
-        {
-            return;
-        }
-        
-        var senderUser = await userManager.FindByNameAsync(username);
-        var recipientUser = await userManager.FindByNameAsync(message.ReceiverId);
-        
-        if (senderUser == null || recipientUser == null)
-        {
-            return;
-        }
-
-        var newMsg = new Message
-        {
-            SenderId = senderUser.Id,
-            ReceiverId = recipientUser.Id,
-            IsRead = false,
-            CreatedDate = DateTime.UtcNow,
-            Content = message.Content
-        };
-        
-        context.Messages.Add(newMsg);
-        await context.SaveChangesAsync();
-        
-        // Find the connection ID for the recipient if they're online
-        if (onlineUsers.TryGetValue(recipientUser.UserName ?? string.Empty, out var onlineUser) &&
-            !string.IsNullOrEmpty(onlineUser.ConnectionId))
-        {
-            await Clients.Client(onlineUser.ConnectionId).SendAsync("ReceiveNewMessage", newMsg);
-        }
+        return;
     }
+    
+    // Lấy tin nhắn với sort và pagination tối ưu hơn
+    var messagesQuery = context.Messages
+        .Where(x => (x.ReceiverId == currentUser.Id && x.SenderId == recipientId) || 
+                   (x.SenderId == currentUser.Id && x.ReceiverId == recipientId))
+        .OrderByDescending(x => x.CreatedDate);
+        
+    var totalMessages = await messagesQuery.CountAsync();
+    
+    var messages = await messagesQuery
+        .Skip((pageNumber - 1) * pageSize)
+        .Take(pageSize)
+        .OrderBy(x => x.CreatedDate)
+        .Select(x => new MessageResponseDto
+        {
+            Id = x.Id,
+            Content = x.Content,
+            CreateDated = x.CreatedDate,
+            ReceiverId = x.ReceiverId, 
+            SenderId = x.SenderId
+        })
+        .ToListAsync();
+        
+    // Cập nhật trạng thái đã đọc một lần và save
+    var unreadMessageIds = messages
+        .Where(m => m.ReceiverId == currentUser.Id)
+        .Select(m => m.Id)
+        .ToList();
+        
+    if (unreadMessageIds.Any())
+    {
+        await context.Messages
+            .Where(m => unreadMessageIds.Contains(m.Id))
+            .ForEachAsync(m => m.IsRead = true);
+            
+        await context.SaveChangesAsync();
+    }
+    
+    // Trả về kết quả với thông tin bổ sung về trang
+    await Clients.Client(Context.ConnectionId).SendAsync("ReceiveMessageList", messages);
+}
+
+// Cải thiện SendMessage để trả về ID tin nhắn mới
+public async Task<int> SendMessage(MessageRequestDto message)
+{
+    var username = Context.User?.Identity?.Name;
+    
+    if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(message.ReceiverId))
+    {
+        return 0; // Trả về 0 nếu không thành công
+    }
+    
+    var senderUser = await userManager.FindByNameAsync(username);
+    var recipientUser = await userManager.FindByIdAsync(message.ReceiverId);
+    
+    if (senderUser == null || recipientUser == null)
+    {
+        return 0;
+    }
+
+    var newMsg = new Message
+    {
+        SenderId = senderUser.Id,
+        ReceiverId = recipientUser.Id,
+        IsRead = false,
+        CreatedDate = DateTime.UtcNow,
+        Content = message.Content
+    };
+    
+    context.Messages.Add(newMsg);
+    await context.SaveChangesAsync();
+    
+    // Trả về ID tin nhắn mới tạo
+    var messageResponse = new MessageResponseDto
+    {
+        Id = newMsg.Id,
+        Content = newMsg.Content,
+        CreateDated = newMsg.CreatedDate,
+        ReceiverId = newMsg.ReceiverId,
+        SenderId = newMsg.SenderId
+    };
+    
+    // Gửi tin nhắn đến người nhận nếu họ online
+    if (onlineUsers.TryGetValue(recipientUser.UserName ?? string.Empty, out var onlineUser) &&
+        !string.IsNullOrEmpty(onlineUser.ConnectionId))
+    {
+        await Clients.Client(onlineUser.ConnectionId).SendAsync("ReceiveNewMessage", messageResponse);
+    }
+    
+    return newMsg.Id;
+}
 
     public async Task NotifyTyping(string recipientUsername)
     {

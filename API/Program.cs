@@ -128,6 +128,8 @@ app.UseAuthorization();
 // Map controllers and endpoints
 app.MapControllers();
 app.MapHub<ChatHub>("hubs/chat");
+app.MapHub<VideoChatHub>("hubs/video");
+
 app.MapAccountEndpoint();
 
 app.Run();

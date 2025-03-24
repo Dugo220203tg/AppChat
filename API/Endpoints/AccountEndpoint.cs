@@ -33,6 +33,10 @@ namespace API.Endpoints
                     picture = await FileUpload.Upload(profileImage);
                     picture = $"{context.Request.Scheme}://{context.Request.Host}/uploads/{picture}";
                 }
+                else
+                {
+                    picture = $"{context.Request.Scheme}://{context.Request.Host}/uploads/default_avatar.jpg";
+                }
 
                 var user = new AppUser
                 {
